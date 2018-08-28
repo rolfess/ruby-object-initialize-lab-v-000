@@ -1,6 +1,6 @@
 class Dog
  attr_reader :name, :breed
-  def initialize(name)
+  def initialize(name, name)
     @name = name
     @breed = "Mutt"
   end
@@ -10,7 +10,7 @@ class Dog
    def name
      @name
    end
-    def breed=(breed)
+    def breed=(breed, breed)
    @breed = breed
   end
    def breed
